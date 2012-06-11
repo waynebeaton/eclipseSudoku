@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sudoku UI Tests Fragment
+Bundle-SymbolicName: org.eclipse.sudoku.ui.tests
+Bundle-Version: 0.2.0
+Fragment-Host: org.eclipse.sudoku.ui;bundle-version="[0.2.0,1.0.0)"
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

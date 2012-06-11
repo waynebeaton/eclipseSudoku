@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="sample" name="Sudoku Sample" schema="schema/sample.exsd"/>
+   <extension
+         id="sample_factory"
+         name="Sample Factory"
+         point="org.eclipse.sudoku.core.factory">
+      <factory
+            class="org.eclipse.sudoku.factory.samples.SudokuSampleBoardFactory"
+            name="Prebuilt Puzzles"/>
+   </extension>
+
+</plugin>

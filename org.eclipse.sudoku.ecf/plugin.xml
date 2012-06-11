@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+<!--
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            description="Multiplayer Sudoku"
+            id="org.eclipse.sudoku.ecf.actionSet"
+            label="Multiplayer Sudoku"
+            >
+         <action
+               class="org.eclipse.sudoku.ecf.actions.ConnectBoardAction"
+               icon="icons/person.gif"
+               id="org.eclipse.sudoku.ecf.connect"
+               label="&amp;Connect"
+               style="push"
+               tooltip="Multiplayer Sudoku"
+               menubarPath="sudoku.menu/additions"
+               toolbarPath="additions"/>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSetPartAssociations">
+      <actionSetPartAssociation targetID="org.eclipse.sudoku.ecf.actionSet">
+         <part id="org.eclipse.sudoku.ui.views.SudokuView"/>
+      </actionSetPartAssociation>
+   </extension>
+-->
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="popup:org.eclipse.ecf.presence.ui.MultiRosterView?before=additions">
+         <dynamic
+               class="org.eclipse.sudoku.ecf.presence.ui.SudokuShareRosterEntryContributionItem"
+               id="org.eclipse.sudoku.ecf.presence.ui.dynamic4">
+         </dynamic>
+      </menuContribution>
+      <menuContribution
+            locationURI="popup:org.eclipse.ecf.presence.ui.MultiRosterView?before=additions">
+         <dynamic
+               class="org.eclipse.sudoku.ecf.presence.ui.SudokuShareRosterContributionItem"
+               id="org.eclipse.sudoku.ecf.presence.ui.dynamic5">
+         </dynamic>
+      </menuContribution>
+   </extension>
+
+</plugin>

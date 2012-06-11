@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.sudoku.core.factory">
+      <factory
+            class="org.eclipse.sudoku.factory.generator.SudokuBoardGeneratorFactory"
+            name="Wayne&apos;s Sudoku Puzzle Generator"/>
+   </extension>
+
+</plugin>

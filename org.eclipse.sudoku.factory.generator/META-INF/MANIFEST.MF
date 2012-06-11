@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sudoku Generator Plug-in
+Bundle-SymbolicName: org.eclipse.sudoku.factory.generator;singleton:=true
+Bundle-Version: 0.2.0
+Bundle-Activator: org.eclipse.sudoku.factory.generator.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)",
+ org.eclipse.sudoku.core;bundle-version="[0.2.0,1.0.0)",
+ org.eclipse.sudoku.solver.backtracking;bundle-version="[0.2.0,1.0.0)"
+Eclipse-LazyStart: true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<stringAttribute key="application" value="org.eclipse.sudoku.application.sudoku"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="true"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="clearwslog" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/Sudoku RCP Application"/>
+<booleanAttribute key="default" value="false"/>
+<stringAttribute key="deselected_workspace_plugins" value="org.eclipse.sudoku.ecf,com.koch.sudoku.base"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-sudoku.product"/>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="product" value="org.eclipse.sudoku.application.sudoku"/>
+<stringAttribute key="productFile" value="/org.eclipse.sudoku.application/sudoku.product"/>
+<stringAttribute key="selected_target_plugins" value="org.eclipse.swt.gtk.linux.x86@default:false,org.eclipse.ui@default:default,org.eclipse.core.runtime@default:true,org.eclipse.equinox.registry@default:default,org.eclipse.core.jobs@default:default,org.eclipse.core.runtime.compatibility.auth@default:default,org.eclipse.swt@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi@-1:true,org.eclipse.ui.workbench@default:default,org.eclipse.jface.databinding@default:default,org.eclipse.help@default:default,org.eclipse.core.contenttype@default:default,org.eclipse.jface@default:default,org.eclipse.core.expressions@default:default,org.eclipse.equinox.app@default:default,org.eclipse.core.databinding@default:default,org.eclipse.core.commands@default:default,org.eclipse.equinox.preferences@default:default,com.ibm.icu@default:default,org.eclipse.equinox.common@2:true"/>
+<stringAttribute key="selected_workspace_plugins" value="org.eclipse.sudoku.ui.tests@default:false,org.eclipse.sudoku.factory.generator@default:default,org.eclipse.sudoku.ui@default:default,org.eclipse.sudoku.application@default:default,org.eclipse.sudoku.core@default:default,org.eclipse.sudoku.solver.backtracking@default:default,org.eclipse.sudoku.factory.generator.tests@default:false,UnderstandingLayouts@default:default,org.eclipse.wst.jsdt.core@default:default,org.eclipse.sudoku.core.tests@default:false,org.eclipse.sudoku.factory.samples@default:default,org.eclipse.sudoku.core.tests.factory@default:false"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfig" value="true"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<booleanAttribute key="useProduct" value="true"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

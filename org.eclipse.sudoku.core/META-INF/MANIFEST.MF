@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sudoku Core Plug-in
+Bundle-SymbolicName: org.eclipse.sudoku.core;singleton:=true
+Bundle-Version: 0.2.0
+Bundle-Activator: org.eclipse.sudoku.core.SudokuCoreActivator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)"
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.sudoku.core;version="0.2.0",
+ org.eclipse.sudoku.core.exceptions;version="0.2.0",
+ org.eclipse.sudoku.core.factories;version="0.2.0",
+ org.eclipse.sudoku.core.internal;version="0.2.0",
+ org.eclipse.sudoku.core.listeners;version="0.2.0",
+ org.eclipse.sudoku.core.models;version="0.2.0",
+ org.eclipse.sudoku.core.solvers;version="0.2.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
